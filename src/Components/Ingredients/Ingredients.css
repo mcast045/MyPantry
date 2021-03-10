@@ -1,0 +1,18 @@
+.ingredient-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1130px) {
+    .ingredient-container {
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width: 1081px) {
+    .ingredient-container {
+        justify-content: center;
+        flex-direction: column;
+    }
+}

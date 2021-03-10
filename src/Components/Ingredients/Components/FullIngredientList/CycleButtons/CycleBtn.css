@@ -1,0 +1,30 @@
+.ingredient-list_container .ingredient-list_container-btns {
+    text-align: center;
+}
+
+.ingredient-list_container .ingredient-list_container-btns button {
+    padding: 1rem;
+    color: #654ea3;
+    margin: 1rem;
+    outline: none;
+}
+
+.ingredient-list_container .ingredient-list_container-btns .nextBtnIngredient,
+.ingredient-list_container .ingredient-list_container-btns .prevBtnIngredient {
+    position: absolute;
+    border: 0;
+    top: 4rem; 
+    height: 70%;
+}
+
+.ingredient-list_container .ingredient-list_container-btns .nextBtnIngredient {
+    right: -.8rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.ingredient-list_container .ingredient-list_container-btns .prevBtnIngredient {
+    left: -.8rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}

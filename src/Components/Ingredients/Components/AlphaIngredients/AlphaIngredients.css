@@ -1,0 +1,42 @@
+.ingredient-letter_border {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ingredient-letter_border .ingredient-letter_border-title {
+    color: #654ea3;
+    font-size: 2rem;
+    position: absolute;
+    top: -1.6rem;
+    left: 2rem;
+    background-color: #eee; 
+    padding: 0 .5rem;
+}
+
+.ingredient-letter_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ingredient-letter_container .ingredient-letter {
+    flex: 1;
+    color: #654ea3;
+    border-radius: 1rem;
+    padding: 0 1.5rem;
+    margin: .5rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1081px) {
+    .ingredient-letter_border {
+        width: 99%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+}

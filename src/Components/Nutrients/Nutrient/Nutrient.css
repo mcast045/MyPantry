@@ -1,0 +1,18 @@
+.nutrients .nutrient-fats_container .total-section:not(:last-child) {
+    padding: .5rem 0;
+    border-bottom: 1px dashed #654ea3;
+    font-size: 1.2rem;
+}
+
+.nutrients .nutrient-fats_container .total-section {
+    font-size: 1.2rem;
+}
+
+.nutrients .full-NutrientsBtn {
+    margin: 1rem auto;
+    display: block;
+    border: 1px solid #654ea3;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    outline: none;
+}

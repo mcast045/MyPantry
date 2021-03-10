@@ -1,0 +1,12 @@
+.ingredient-letter_border  .ingredient-letter_search {
+    padding: .5rem 1rem;
+    font-size: 1.8rem;
+    outline: none;
+    border-radius: 1rem;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.ingredient-letter_error {
+    background-color: red;
+}

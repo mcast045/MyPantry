@@ -1,0 +1,23 @@
+.nutrients {
+    color: #654ea3;
+    border: 1px solid #654ea3;
+    padding: .2rem .5rem;
+    width: 75%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.nutrients .nutrients-section,
+.nutrients .nutrient-fats_container .total-section:not(:last-child) {
+    border-bottom: 2px solid #654ea3;
+    font-size: 1.4rem;
+}
+
+.nutrients .nutrients-nutritionFacts {
+    font-size: 3rem;
+    border-bottom: 2px solid #654ea3;
+}
+
+.nutrients .nutrients-bold {
+    font-weight: bold;
+}

@@ -1,0 +1,47 @@
+.myIngredients-container {
+    width: 25rem;
+    background-color: #654ea3;
+    border-left: 1px solid black;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+.myIngredients-container .myIngredients-container_title {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.myIngredients-container .myIngredients-container_total {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.myIngredients-container .myIngredients {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.myIngredients-container .myIngredients:hover {
+    color: #654ea3;
+    background-color: #eee;
+}
+
+.myIngredients-container .myIngredients:not(:last-child) {
+    border-bottom: 1px dashed #eee;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}  
+
+.myIngredients-container .myIngredients-container_btn {
+    border: none;
+    border-radius: 1rem;
+    background-color: #eee;
+    color: #654ea3;
+    padding: .5rem;
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    outline: none;
+}

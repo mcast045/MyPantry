@@ -1,0 +1,45 @@
+.header-container {
+    height: 10vh;
+    background-color: rgba(101, 78, 163, 1);
+    position: sticky;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-container .header-container_SVG .header-container_my-ingredients {
+    height: 5rem;
+    margin-right: 1rem;
+}
+
+.header-container .header-container_SVG .header-container_my-ingredients:hover .mixer {
+    transform-origin: bottom center;
+    animation: rotateBowl 1s linear infinite;
+    fill: gold;
+}
+@keyframes rotateBowl {
+    from {
+        transform: rotateY(0);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.animateStar {
+    animation: scaleStar .5s linear;
+    background-color: black;
+}
+@keyframes scaleStar {
+    0% {
+        fill: black;
+    }
+    50% {
+        fill: gold;
+    }
+    100% {
+        fill: black;
+    }
+}

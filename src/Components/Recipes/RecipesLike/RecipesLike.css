@@ -1,0 +1,20 @@
+.recipes .recipe-container .recipe-like {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipes .recipe-container .recipe-like .recipe-likeSVG svg {
+    height: 2rem;
+    width: 2rem;
+    fill: #654ea3;
+}
+
+.recipes .recipe-container .recipe-like .recipe-like_value {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.recipes .recipe-container:hover .recipe-like .recipe-likeSVG svg {
+    fill: #eee;
+}

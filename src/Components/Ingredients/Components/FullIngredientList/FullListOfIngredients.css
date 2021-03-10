@@ -1,0 +1,51 @@
+.ingredient-list_container {
+    flex: 1;
+    border: 1px solid #654ea3;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-left: 1rem;
+}
+
+.ingredient-list_container .ingredient-list_container-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    grid-auto-rows: 8rem;
+    row-gap: 1rem;
+}
+
+.ingredient-list_container .ingredient-container-unowned,
+.ingredient-list_container .ingredient-container-owned {
+    width: 75%;
+    margin: 1px auto;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.ingredient-list_container .ingredient-container-unowned {
+    background-color: #654ea3;
+}
+
+.ingredient-list_container .ingredient-container-owned {
+    background-color: rgba(168, 224, 99, 1);
+    color: #333;
+}
+
+.ingredient-list_container .ingredient-list_container-grid .ingredient-letter_border-title {
+    color: #654ea3;
+    font-size: 2rem;
+    position: absolute;
+    top: -3.8rem;
+    right: 1rem;
+    background-color: #eee; 
+    padding: 0 .5rem;
+}
+
+.ingredient-list_container .ingredient-container-owned:hover,
+.ingredient-list_container .ingredient-container-unowned:hover {
+    background-color: rgba(168, 224, 99, .5);
+    color: #333;
+}

@@ -1,0 +1,19 @@
+.recipe-ingredients-container {
+    display: flex;
+    justify-content: space-between;
+    color: #654ea3;
+    width: 75%;
+    margin-top: 1rem;
+}
+
+.recipe-ingredients-container .ingredients-container .ingredients-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem;
+    border-bottom: 1px solid #654ea3;
+}
+
+.recipe-ingredients-container .ingredients-container .ingredients {
+    font-size: 1.2rem;
+    text-align: center;
+}

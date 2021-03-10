@@ -1,0 +1,22 @@
+.instructions-step_container {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.instructions-container .instructions-steps .instructions-step_listItem {
+    margin: .5rem auto;
+}
+
+.instructions-container .instructions-steps .instructions-step_listItem:hover {
+    background-color: #654ea3;
+    color: #eee;
+}
+
+.instructions-container .instructions-steps .steps-BackBtn {
+    padding: 0.5rem 1rem;
+    margin: 1rem auto;
+    display: block;
+    border-radius: 1rem;
+    border: 1px solid #654ea3;
+    outline: none;
+}
